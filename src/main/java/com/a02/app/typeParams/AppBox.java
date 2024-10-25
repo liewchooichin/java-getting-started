@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AppBox {
+
   public static void main(){
     // string box
      Box<String> redBox = new Box<>();
@@ -66,5 +67,17 @@ public class AppBox {
     MyLambda.p.printAQuote("The world is flat.");
     String prediction = MyLambda.predictor.predictWeather(WeatherPredictor.CLOUDY);
     System.out.printf("Weather prediction: %s\n", prediction);
+    // Predicate
+    List<String> testStrings = new ArrayList<>();
+    testStrings.add("Hello");
+    testStrings.add("Abc");
+    testStrings.add("XYZ");
+    testStrings.add("Raining");
+    List<String> result = MyLambda.checkStringLength3(testStrings);
+    for(String s: result){
+      System.out.printf("Length %s is three characters long.\n", s);
+    }
+    // print some random number
+    SupplierLambda.printRandomNumberVer1();
   }
 }
