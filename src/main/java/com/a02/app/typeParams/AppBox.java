@@ -79,5 +79,9 @@ public class AppBox {
     }
     // print some random number
     SupplierLambda.printRandomNumberVer1();
+    SupplierLambda.printRandomNumberVer2();
+    ConsumerLambda.printRandomNumberVer3();
+    ConsumerLambda.printRandomNumberVer4();
+    BiConsumerLambda.printRandomNumberVer5();
   }
 }
