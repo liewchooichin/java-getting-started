@@ -63,7 +63,8 @@ public class AppBox {
 
     // Lambdas
     MyLambda.r.run();
-    MyLambda.listFile("./");
-
+    MyLambda.p.printAQuote("The world is flat.");
+    String prediction = MyLambda.predictor.predictWeather(WeatherPredictor.CLOUDY);
+    System.out.printf("Weather prediction: %s\n", prediction);
   }
 }
