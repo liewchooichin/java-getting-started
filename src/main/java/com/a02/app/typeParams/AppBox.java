@@ -1,6 +1,7 @@
 package com.a02.app.typeParams;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class AppBox {
@@ -97,6 +98,13 @@ public class AppBox {
     System.out.printf("Is negative numbers: %s\n", someNumbers);
     // Remove string length greater than 5
     PredicateLambda.removeStringMoreThan5();
-
+    // Function lambda
+    FunctionLambda.add10ToNumbers();
+    // UnaryOperator - Function
+    List<String> words = Arrays.asList("one", "two", "three");
+    FunctionLambda.changeToUppercase(words);
+    System.out.println(words);
+    // Find word in BiFunction
+    FunctionLambda.findWord();
   }
 }
