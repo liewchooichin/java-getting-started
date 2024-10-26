@@ -83,5 +83,20 @@ public class AppBox {
     ConsumerLambda.printRandomNumberVer3();
     ConsumerLambda.printRandomNumberVer4();
     BiConsumerLambda.printRandomNumberVer5();
+    // consumer lambda, add 10 to each number
+    List<Integer> someNumbers = new ArrayList<>();
+    someNumbers.add(11);
+    someNumbers.add(12);
+    someNumbers.add(13);
+    ConsumerLambda.printNumbers(someNumbers);
+    // test for negative
+    someNumbers.add(-10);
+    someNumbers.add(-9);
+    someNumbers.add(-8);
+    PredicateLambda.isNegative(someNumbers);
+    System.out.printf("Is negative numbers: %s\n", someNumbers);
+    // Remove string length greater than 5
+    PredicateLambda.removeStringMoreThan5();
+
   }
 }

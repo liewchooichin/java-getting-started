@@ -1,5 +1,6 @@
 package com.a02.app.typeParams;
 
+import java.util.List;
 import java.util.Random;
 import java.util.function.Consumer;
 import java.util.function.IntSupplier;
@@ -43,5 +44,10 @@ public class ConsumerLambda {
       greaterThan50.accept(newRandom.getAsInt());
     }
   }
-
+  // add 100 to each number      
+  public static void printNumbers(List<Integer> numbers){
+    Consumer<Integer> printNum = (num) -> {System.out.printf("Number is %d\n", num);};
+    numbers.forEach((num)->printNum.accept(num));
+  }
+  
 }
