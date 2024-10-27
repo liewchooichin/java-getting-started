@@ -106,5 +106,11 @@ public class AppBox {
     System.out.println(words);
     // Find word in BiFunction
     FunctionLambda.findWord();
+    // Square root using Function lamdba
+    List<Double> numbersForSqrt = Arrays.asList(4.0, 9.0, 16.0);
+    List<Double> resultSqrt;
+    resultSqrt = MethodReference.CalculateSquareRoot(numbersForSqrt);
+    System.out.println("Numbers: " + numbersForSqrt);
+    System.out.println("Result of sqrt: " + resultSqrt);
   }
 }
