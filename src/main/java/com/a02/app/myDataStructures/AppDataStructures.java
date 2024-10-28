@@ -34,5 +34,7 @@ public class AppDataStructures {
     SimpleSet.main();
     // List
     SimpleList.main();
+    // Map
+    SimpleMap.main();
   }
 }
