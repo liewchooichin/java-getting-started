@@ -25,8 +25,8 @@ public class OrderedPair<K, V>
     }
     @Override
     public String toString(){
-      return String.format("Type: %s,\nKey: %s\n"
-      + "Type: %s, \nValue: %s\n.",
+      return String.format("Type: %s,\nKey: %s.\n"
+      + "Type: %s, \nValue: %s.\n",
       key.getClass().getName(), key.toString(),
       value.getClass().getName(), value.toString());
     }
