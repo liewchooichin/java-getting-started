@@ -8,5 +8,6 @@ public class AppMoreString {
     //WorkingWithStrings.main(new String[]{"dummy"});
     //MyRegex.main(new String[]{"dummy"});
     InstanceFormatter.main(new String[]{"dummy"});
+    SimpleBinary.main();
   }
 }

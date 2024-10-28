@@ -12,7 +12,7 @@ public class App {
     //AppShape.main();
     //AppBox.main();
     //AppHello.main();
-    //AppMoreString.main();
-    AppDataStructures.main();
+    AppMoreString.main();
+    //AppDataStructures.main();
   }
 }
