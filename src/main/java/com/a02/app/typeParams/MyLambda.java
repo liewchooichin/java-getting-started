@@ -8,13 +8,7 @@ interface PrintAQuote {
   public abstract void printAQuote(String quote); 
 }
 
-// Weather
-enum WeatherPredictor {
-  CLOUDY,
-  RAINING,
-  SUNNY,
-  HUMID;
-}
+
 
 @FunctionalInterface
 interface RainingOrSunny {

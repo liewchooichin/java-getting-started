@@ -12,4 +12,9 @@ public class Box<T> {
     value = null; // reset value
     return t;
   }
+  // to string
+  @Override
+  public String toString(){
+    return this.getClass().getCanonicalName();
+  }
 }
