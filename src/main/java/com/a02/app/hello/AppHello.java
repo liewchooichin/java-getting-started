@@ -10,8 +10,8 @@ public class AppHello {
     // System.out.printf("Area of rectangle is %f\n", 
     //   rect.area());
     // read and write file
-    //SimpleFileWorker.main();
+    SimpleFileWorker.main();
     // convert between metric and imperial
-    MeasureUnitConverter.main();
+    //MeasureUnitConverter.main();
   }
 }

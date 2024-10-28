@@ -11,7 +11,7 @@ public class SimpleFileWorker {
 
   private static void writeData() {
     try {
-      FileWriter fileWriter = new FileWriter("gamesCatalog.txt");
+      FileWriter fileWriter = new FileWriter("./data/gamesCatalog.txt");
       BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
       // write header row
       bufferedWriter.write("name, company, year\n");
@@ -22,6 +22,7 @@ public class SimpleFileWorker {
       bufferedWriter.write("Warlords, Atari, 1981\n");
       bufferedWriter.write("Defender, Atari, 1981\n");
       bufferedWriter.write("Adventure, Atari, 1980\n");
+      bufferedWriter.write("My folder, Zebra, 2024\n");
       // close the writer
       bufferedWriter.close(); // close buffer first
       fileWriter.close(); // then, close the file
@@ -35,7 +36,7 @@ public class SimpleFileWorker {
   private static void readData() {
     try {
       BufferedReader bufferedReader = new BufferedReader(
-          new FileReader("gamesCatalog.txt"));
+          new FileReader("./data/gamesCatalog.txt"));
       // read the header row
       String gameLine = bufferedReader.readLine();
       boolean headerRow = true; // first row
