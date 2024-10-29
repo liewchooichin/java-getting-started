@@ -1,9 +1,9 @@
 package com.a02.app.moreDataStructures;
 
-public class Stack {
+public class Stack extends MySimpleDataStructure{
   // fields
-  private Item[] items;
-  private int maxCount;
+  //private Item[] items; // inherited
+  //private int maxCount; // inherited
   private int stackCount = 0;
 
   // default size 5 (maxCount)
@@ -22,7 +22,7 @@ public class Stack {
    * items array, we will need a way to resize it. By default, we will
    * increase it by 5 each time.
    */
-  private void resizeItemsArray() {
+  protected void resizeItemsArray() {
     maxCount = maxCount + 5; // increase max count
     Item[] newArray = new Item[maxCount];
     for (int counter = 0; counter < stackCount; counter++) {
@@ -54,7 +54,7 @@ public class Stack {
   public Item pop() {
     Item returnVal = peek();
     items[stackCount-1] = null; // set the item to null
-    stackCount = stackCount -1;
+    stackCount = stackCount -1; // number of items in the stack
     return returnVal;
   }
 
