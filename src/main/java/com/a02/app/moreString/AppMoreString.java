@@ -9,5 +9,6 @@ public class AppMoreString {
     //MyRegex.main(new String[]{"dummy"});
     InstanceFormatter.main(new String[]{"dummy"});
     SimpleBinary.main();
+    MyDecimalFormat.main();
   }
 }
