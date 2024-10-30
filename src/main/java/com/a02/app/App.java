@@ -1,5 +1,6 @@
 package com.a02.app;
 
+import com.a02.app.bicycle.AppBicycle;
 import com.a02.app.moreDataStructures.AppMoreDataStructures;
 //import com.a02.app.shape.AppShape;
 //import com.a02.app.typeParams.AppBox;
@@ -15,6 +16,7 @@ public class App {
     //AppHello.main();
     //AppMoreString.main();
     //AppDataStructures.main();
-    AppMoreDataStructures.main();
+    //AppMoreDataStructures.main();
+    AppBicycle.main();
   }
 }

@@ -12,6 +12,10 @@ Code with Java 21
 
 A **package** is simply a container for Java classes related to each other.
 
+## Self-referential class
+
+The folder **moreDataStrucutres** contains Node and Tree classes. The Node class is a self-referential class. I find it difficult to visualize a self-referential class.
+
 
 ## Creating a maven project
 
