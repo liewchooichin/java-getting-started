@@ -40,7 +40,7 @@ public class LocalClassExample {
 //                System.out.println("Original numbers are " + phoneNumber1 +
 //                    " and " + phoneNumber2);
 //            }
-      }
+      } // end of PhoneNumber local class
 
       PhoneNumber myNumber1 = new PhoneNumber(phoneNumber1);
       

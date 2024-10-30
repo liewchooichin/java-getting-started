@@ -16,6 +16,16 @@ A **package** is simply a container for Java classes related to each other.
 
 The folder **moreDataStrucutres** contains Node and Tree classes. The Node class is a self-referential class. I find it difficult to visualize a self-referential class.
 
+## Many kinds of classes
+
+In **bicycle** folder, there are demo of various classes.
+
+- Within a class:
+  - Inner class
+  - Static nested class
+- Within a method:
+  - Local class
+  - Anonymous class
 
 ## Creating a maven project
 
