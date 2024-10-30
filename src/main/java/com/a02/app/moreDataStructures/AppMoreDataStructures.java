@@ -35,7 +35,7 @@ public class AppMoreDataStructures {
     // Using queue
     System.out.println("Queue example");
     Queue queue = new Queue();
-    for(Item i : items){
+    for (Item i : items) {
       queue.enqueue(i);
     }
     System.out.println(queue);
@@ -56,6 +56,19 @@ public class AppMoreDataStructures {
     System.out.printf("%s was dequeue.\n", queue.dequeue().getName());
     // current queue
     System.out.println(queue);
-
+    // Using Tree and Node
+    System.out.println("Tree example:");
+    Tree tree = new Tree(47);
+    tree.insert(48);
+    tree.insert(20);
+    tree.insert(15);
+    tree.insert(26);
+    tree.insert(18);
+    // traverse
+    System.out.println("Traverse from root");
+    tree.traverseFromRoot();
+    // reverse
+    System.out.println("Reverse from root");
+    tree.reverseFromRoot();
   }
 }
