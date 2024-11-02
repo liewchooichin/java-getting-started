@@ -58,5 +58,27 @@ public class AppBicycle {
     Collections.sort(daysList);
     System.out.println("Sorted days: " + daysList);
 
+    // Inheritance
+    MountainBike myMB = new MountainBike();
+    Object objMB = new MountainBike();
+    //MountainBike myBike = objMB; // compile error
+    // Need to test for the instanceof
+    if(objMB instanceof Bicycle){
+      System.out.println("objMB is instance of Bicycle");
+    }
+    if(objMB instanceof MountainBike){
+      System.out.println("objMB is instance of MountainBike");
+    }
+    // before assignment
+    System.out.println("Before assignment");
+    System.out.printf("Id of myMB: %s%n", System.identityHashCode(myMB));
+    System.out.printf("Id of objMB: %s%n", System.identityHashCode(objMB));
+    // after assignment
+    objMB = myMB;
+    System.out.println("After assignment");
+    System.out.printf("Id of myMB: %s%n", System.identityHashCode(myMB));
+    System.out.printf("Id of objMB: %s%n", System.identityHashCode(objMB));
+
+    
   }
 }
