@@ -59,8 +59,8 @@ public class AppBicycle {
     System.out.println("Sorted days: " + daysList);
 
     // Inheritance
-    MountainBike myMB = new MountainBike();
-    Object objMB = new MountainBike();
+    MountainBike myMB = new MountainBike(50, 50, 50, "A Suspend");
+    Object objMB = new MountainBike(20, 20, 20, "B Suspension");
     //MountainBike myBike = objMB; // compile error
     // Need to test for the instanceof
     if(objMB instanceof Bicycle){
@@ -79,6 +79,19 @@ public class AppBicycle {
     System.out.printf("Id of myMB: %s%n", System.identityHashCode(myMB));
     System.out.printf("Id of objMB: %s%n", System.identityHashCode(objMB));
 
+    // With road bike
+    Bicycle bike01, bike02, bike03;
+
+    bike01 = new Bicycle(20, 10, 1);
+    bike02 = new MountainBike(20, 10, 5, "Dual");
+    bike03 = new RoadBike(40, 20, 8, 23);
+
+    bike01.printDescription();
+    bike02.printDescription();
+    bike03.printDescription();
+
+    // Immutable and mutable list
+    ImmutableList.main();
     
   }
 }

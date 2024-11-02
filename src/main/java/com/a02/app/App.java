@@ -19,6 +19,6 @@ public class App {
     //AppDataStructures.main();
     //AppMoreDataStructures.main();
     AppBicycle.main();
-    AppInheritance.main();
+    //AppInheritance.main();
   }
 }
