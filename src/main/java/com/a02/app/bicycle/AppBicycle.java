@@ -92,6 +92,22 @@ public class AppBicycle {
 
     // Immutable and mutable list
     ImmutableList.main();
-    
+
+    // Override toString(), equals() and hashCode()
+    Book book1 = new Book("Green Day", "Green Bug");
+    Book book2 = new Book("Pink Day", "Pink Bug");
+    Book book3 = new Book("Green Day", "Green Bug");
+    // toString();
+    // compare
+    System.out.printf("%s%n\t", book1);
+    System.out.printf("hash code: %d%n", book1.hashCode());
+    System.out.printf("%s%n\t", book2);
+    System.out.printf("Book 2 hash code: %d%n", book2.hashCode());
+    System.out.printf("%s%n\t", book3);
+    System.out.printf("Book 2 hash code: %d%n", book3.hashCode());
+    boolean result = book1.equals(book2);
+    System.out.printf("%s equals %s? %b%n", book1, book2, result);
+    result = book1.equals(book3);
+    System.out.printf("%s equals %s? %b%n", book1, book3, result);
   }
 }
