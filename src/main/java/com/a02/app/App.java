@@ -1,6 +1,7 @@
 package com.a02.app;
 
 import com.a02.app.bicycle.AppBicycle;
+import com.a02.app.functional.AppFunctional;
 import com.a02.app.inheritance.AppInheritance;
 import com.a02.app.moreDataStructures.AppMoreDataStructures;
 //import com.a02.app.shape.AppShape;
@@ -18,7 +19,8 @@ public class App {
     //AppMoreString.main();
     //AppDataStructures.main();
     //AppMoreDataStructures.main();
-    AppBicycle.main();
+    //AppBicycle.main();
     //AppInheritance.main();
+    AppFunctional.main();
   }
 }
