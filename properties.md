@@ -1,0 +1,52 @@
+```
+-- listing properties --
+java.specification.version=21
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+sun.jnu.encoding=UTF-8
+java.runtime.version=21.0.5+11-LTS
+java.class.path=./target/a02app-1.0-SNAPSHOT.jar
+user.name=liewchooichin
+stdout.encoding=UTF-8
+java.vm.vendor=Eclipse Adoptium
+path.separator=:
+sun.arch.data.model=64
+os.version=6.8.0-48-generic
+java.runtime.name=OpenJDK Runtime Environment
+java.vendor.url=https://adoptium.net/
+file.encoding=UTF-8
+java.vm.specification.version=21
+os.name=Linux
+java.vm.name=OpenJDK 64-Bit Server VM
+java.vendor.version=Temurin-21.0.5+11
+sun.java.launcher=SUN_STANDARD
+user.country=SG
+sun.boot.library.path=/home/liewchooichin/.sdkman/candidate...
+sun.java.command=./target/a02app-1.0-SNAPSHOT.jar
+java.vendor.url.bug=https://github.com/adoptium/adoptium-...
+java.io.tmpdir=/tmp
+jdk.debug=release
+sun.cpu.endian=little
+java.version=21.0.5
+user.home=/home/liewchooichin
+user.dir=/home/liewchooichin/Public/maven-proj...
+user.language=en
+os.arch=amd64
+java.specification.vendor=Oracle Corporation
+java.vm.specification.name=Java Virtual Machine Specification
+java.version.date=2024-10-15
+java.home=/home/liewchooichin/.sdkman/candidate...
+file.separator=/
+java.vm.compressedOopsMode=Zero based
+native.encoding=UTF-8
+line.separator=
+
+java.library.path=/usr/java/packages/lib:/usr/lib64:/li...
+java.vm.specification.vendor=Oracle Corporation
+java.specification.name=Java Platform API Specification
+java.vm.info=mixed mode, sharing
+stderr.encoding=UTF-8
+java.vendor=Eclipse Adoptium
+java.vm.version=21.0.5+11-LTS
+sun.io.unicode.encoding=UnicodeLittle
+java.class.version=65.0
+```
