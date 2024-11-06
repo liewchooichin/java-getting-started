@@ -9,6 +9,7 @@ import com.a02.app.moreDataStructures.AppMoreDataStructures;
 //import com.a02.app.hello.AppHello;
 //import com.a02.app.moreString.AppMoreString;
 //import com.a02.app.myDataStructures.AppDataStructures;
+import com.a02.app.myException.ListOfNumbers;
 
 public class App {
   public static void main(String[] args) {
@@ -22,5 +23,6 @@ public class App {
     //AppBicycle.main();
     //AppInheritance.main();
     AppFunctional.main();
+    ListOfNumbers.main();
   }
 }
